@@ -90,6 +90,11 @@ hr{
     align-items: center;
     align-items: baseline;
 }
+.hr {
+    border: 1px solid #858585;
+    width: 993px;
+    height: 0px;
+}
 /* header */
 .header {
     width: 100%;
@@ -295,16 +300,15 @@ hr{
     color: #ababab;
 }
 /* education section */
+.education-section{
+    padding: 0 20px 100px 20px
+}
 .education-section__container {
     display: flex;
     flex-direction: column;
     gap: 69px;
 }
-.education-section_hr {
-    border: 1px solid #858585;
-    width: 993px;
-    height: 0px;
-}
+
 .education-item {
     display: flex;
     align-items: flex-start;
@@ -319,7 +323,7 @@ hr{
     text-transform: uppercase;
     flex-shrink: 0;
     margin: 0;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 .education-description {
@@ -327,4 +331,16 @@ hr{
     font-size: 20px;
     color: white;
     max-width: 993px;
+}
+/* certificates-section */
+.certificates-section__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 0 20px 100px 20px
+}
+
+.certificate-item img {
+    width: 100%;
+    height: auto;
 }
