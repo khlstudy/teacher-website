@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ульяновська Юлія Вікторівна</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Raleway:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__nav">
+          <div class="header__logo">
+            <a href="/"><img src="./images/logo-umsf.jpg" alt="" /></a>
+            <a href="/"><img src="./images/logo-inftech.jpg" alt="" /></a>
+          </div>
+          <ul class="header__ul">
+            <li><a class="header_link" href="#">Головна</a></li>
+            <li><a class="header_link" href="#disciplines">Дисципліни</a></li>
+            <li><a class="header_link" href="">Освіта</a></li>
+            <li><a class="header_link" href="">Сертифікати</a></li>
+            <li><a class="header_link" href="">Публікації</a></li>
+            <li><a class="header_link" href="">Досвід</a></li>
+            <li><a class="header_link" href="">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-section__left">
+            <h1>Ульяновська Юлія Вікторівна</h1>
+            <h3>Завідувач кафедри, кандидат технічних наук, доцент</h3>
+            <button>Детальніше ></button>
+          </div>
+          <div class="hero-section__right">
+            <svg
+              class="hero-section__elilipse"
+              width="548"
+              height="386"
+              viewBox="0 0 548 386"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <ellipse
+                cx="274"
+                cy="193"
+                rx="284"
+                ry="177"
+                transform="rotate(-20 274 193)"
+                fill="#0092DF"
+              />
+            </svg>
+            <img
+              src="./images/photo-portrait.png"
+              alt="Ульяновська Юлія Вікторівна фото"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="disciplines-section">
+        <h2 class="title" id="disciplines">Дисципліни</h2>
+        <div class="disciplines-section__container container">
+          <div class="disciplines-section__accordion">
+            <button class="accordion">Комп'ютерна дискретна математика</button>
+            <hr />
+            <div class="panel">
+              <p>
+                Вивчення окремих, неподільних об'єктів, таких як множини, графи
+                і логіка. Це основа для комп. наук, яка потрібна для розуміння
+                алгоритмів та структур даних.
+              </p>
+            </div>
+            <button class="accordion">
+              Сучасні методи теорії інформації та кодування
+            </button>
+            <hr />
+            <div class="panel">
+              <p>
+                Досліджує методи розв’язання задач шляхом побудови алгоритмів, а
+                також оцінює їх ефективність та складність.
+              </p>
+            </div>
+            <button class="accordion">Теорія алгоритмів</button>
+            <hr />
+            <div class="panel">
+              <p>
+                Досліджує методи розв’язання задач шляхом побудови алгоритмів, а
+                також оцінює їх ефективність та складність.
+              </p>
+            </div>
+            <button class="accordion">Теорія прийняття рішень</button>
+            <hr />
+            <div class="panel">
+              <p>
+                Вивчає процеси вибору оптимальних рішень в умовах невизначеності
+                та різних стратегій.
+              </p>
+            </div>
+            <button class="accordion">
+              Інтелектуальні системи підтримки прийняття рішень
+            </button>
+            <hr />
+            <div class="panel">
+              <p>
+                Розробка систем, що допомагають людям ухвалювати рішення,
+                аналізуючи великі обсяги даних та прогнозуючи результати.
+              </p>
+            </div>
+            <button class="accordion">
+              Методи та системи штучного інтелекту
+            </button>
+            <hr />
+            <div class="panel">
+              <p>
+                Включає алгоритми машинного навчання та штучного інтелекту для
+                створення систем, які можуть навчатися та приймати рішення.
+              </p>
+            </div>
+          </div>
+          <div class="disciplines-section__images">
+            <img src="./images/photo-umsf-1.jpg" alt="" />
+            <div class="image-overlay-container">
+              <img src="./images/photo-umsf-2.jpg" alt="" />
+              <p class="disciplines-section__field">
+                Сфера наукових інтересів:
+                <span
+                  >Інтелектуальні автоматизовані системи, методи обробки
+                  нечітких та неповних даних.</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./accordion.js"></script>
+  </body>
+</html>
