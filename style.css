@@ -77,7 +77,19 @@ hr{
     font-size: 45px;
     color: var(--color-secondary-light);
 }
-
+.title-second {
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--color-secondary-light);
+    padding-left: 190px;
+    margin-right: 20px;
+    line-height: 1;
+}
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+}
 /* header */
 .header {
     width: 100%;
@@ -202,6 +214,9 @@ hr{
 }
 
 /* disciplines-section*/
+.disciplines-section{
+    padding: 0 20px 100px 20px
+}
 .disciplines-section__container{
     display: flex;
     
@@ -278,4 +293,38 @@ hr{
 }
 .disciplines-section__field span{
     color: #ababab;
+}
+/* education section */
+.education-section__container {
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+}
+.education-section_hr {
+    border: 1px solid #858585;
+    width: 993px;
+    height: 0px;
+}
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 69px;
+}
+
+.education-section__year {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 92%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+    margin: 0;
+    margin-right: 100px;
+}
+
+.education-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    max-width: 993px;
 }
