@@ -371,10 +371,13 @@ hr{
     width: 100px;
     height: 50px;
     background-color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .publications-section__button img{
-    margin: 0 auto;
+    margin: 0;
 }
 
 /* experience section*/
