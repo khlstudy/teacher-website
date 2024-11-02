@@ -25,9 +25,9 @@
             <li><a class="header_link" href="#disciplines">Дисципліни</a></li>
             <li><a class="header_link" href="#education">Освіта</a></li>
             <li><a class="header_link" href="#certificates">Сертифікати</a></li>
-            <li><a class="header_link" href="#">Публікації</a></li>
-            <li><a class="header_link" href="#">Досвід</a></li>
-            <li><a class="header_link" href="#">Контакти</a></li>
+            <li><a class="header_link" href="#publications">Публікації</a></li>
+            <li><a class="header_link" href="#experience">Досвід</a></li>
+            <li><a class="header_link" href="#contacts">Контакти</a></li>
           </ul>
         </nav>
       </div>
@@ -38,7 +38,10 @@
           <div class="hero-section__left">
             <h1>Ульяновська Юлія Вікторівна</h1>
             <h3>Завідувач кафедри, кандидат технічних наук, доцент</h3>
-            <button>Детальніше ></button>
+            <a
+              href="http://umsf.dp.ua/index.php/struktura/2021-03-09-08-35-26/kafedra-kompiuternykh-nauk-ta-inzhenerii-prohramnoho-zabezpechennia"
+              >Детальніше ></a
+            >
           </div>
           <div class="hero-section__right">
             <svg
@@ -147,16 +150,16 @@
           <hr class="hr" />
         </div>
         <div class="education-section__container container">
-          <div class="education-item">
-            <h4 class="education-section__year">1997</h4>
-            <p class="education-description">
+          <div class="item">
+            <h4 class="year">1997</h4>
+            <p class="description">
               Закінчила Дніпропетровський національний університет за
               спеціальністю математик, викладач математики.
             </p>
           </div>
-          <div class="education-item">
-            <h4 class="education-section__year">2005</h4>
-            <p class="education-description">
+          <div class="item">
+            <h4 class="year">2005</h4>
+            <p class="description">
               Присуджено науковий ступінь кандидата технічних наук спеціальністю
               05.13.06 – автоматизовані системи управління та прогресивні
               інформаційні технології (тема дисертації «Моделі та методи обробки
@@ -189,7 +192,132 @@
           </div>
         </div>
       </section>
+      <section class="publications-section" id="publications">
+        <div class="title-wrapper">
+          <h3 class="title-second">Публікації / cтатті / книги</h3>
+          <hr class="hr" />
+        </div>
+        <div class="publications-section__container container">
+          <button class="publications-section__button">
+            <img src="./images/icon-download.png" alt="Завантажити" />
+          </button>
+          <p>Основні наукові та навчально-методичні праці</p>
+        </div>
+      </section>
+      <section class="experience-section">
+        <h2 class="title" id="experience">Досвід</h2>
+        <div class="experience-section__container container">
+          <div class="items">
+            <div class="item">
+              <h4 class="year">2018</h4>
+              <p class="description">
+                Заступник відповідального секретаря приймальної комісії з
+                вивчення документів вступників, які мають пільги на зарахування
+                поза конкурсом (наказ № 34 від 20.02.2018 р.) <br />
+                <br />
+                Робота у складі журі міжнародного конкурсу візуальних
+                презентацій «День острова Токто», який проводився в Університеті
+                митної справи та фінансів за участі Посольства Республіки Кореї
+                в Україні 04.06.2018 р.
+                <br />
+                <br />
+                З 2018 року в.о. завідувача кафедри інформаційних систем та
+                технологій Університету митної справи та фінансів.
+              </p>
+            </div>
+            <div class="item">
+              <h4 class="year">2019</h4>
+              <p class="description">
+                Заступник відповідального секретаря приймальної комісії з
+                вивчення документів вступників, які мають пільги на зарахування
+                поза конкурсом (наказ № 174 від 04.12.2019)
+                <br />
+                <br />
+                З 2019 року завідувач кафедри комп’ютерних наук та інженерії
+                програмного забезпечення.
+              </p>
+            </div>
+            <div class="item">
+              <h4 class="year">з 2021</h4>
+              <p class="description">
+                Виконує обов’язки куратора групи К 21-1м.
+              </p>
+            </div>
+            <div class="item">
+              <h4 class="year">з 2022</h4>
+              <p class="description">
+                Виконує обов’язки куратора груп К 22-1м та К 22-2м.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="contacts">
+        <div class="footer__container container">
+          <div class="footer__left">
+            <h5>Поставити питання</h5>
+            <form action="" id="contactForm">
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Ім'я"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Повідомлення"
+                class="message"
+                required
+              ></textarea>
+            </form>
+            <button class="footer__button" type="submit" id="submitButton">
+              Надіслати
+            </button>
+          </div>
+          <div class="footer__right">
+            <h5>Контакти</h5>
+            <a href="mailto:kafedra.kn.ta.ipz@gmail.com"
+              >kafedra.kn.ta.ipz@gmail.com</a
+            >
+            <a href="mailto:yuliyauyv@gmail.com">yuliyauyv@gmail.com</a>
+            <a href="mailto:ulyanovska@umsf.dp.ua">ulyanovska@umsf.dp.ua</a>
+            <div class="footer__social">
+              <a
+                href="https://scholar.google.com.ua/citations?user=qcpalN0AAAAJ&hl=ua"
+              >
+                <svg width="40" height="40" fill="white" viewBox="0 0 40 40">
+                  <path
+                    d="M8.73667 22.9483L0 15.8333L20 0L40 15.8333L31.2633 22.9483C29.2467 18.7483 24.9633 15.8333 20 15.8333C15.0383 15.8333 10.7533 18.7467 8.73667 22.9483ZM20 16.6667C16.9058 16.6667 13.9383 17.8958 11.7504 20.0838C9.5625 22.2717 8.33333 25.2391 8.33333 28.3333C8.33333 31.4275 9.5625 34.395 11.7504 36.5829C13.9383 38.7708 16.9058 40 20 40C23.0942 40 26.0617 38.7708 28.2496 36.5829C30.4375 34.395 31.6667 31.4275 31.6667 28.3333C31.6667 25.2391 30.4375 22.2717 28.2496 20.0838C26.0617 17.8958 23.0942 16.6667 20 16.6667Z"
+                  />
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/computer.science.UMSF/">
+                <svg width="40" height="40" fill="white">
+                  <use href="./social.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </div>
+            <a
+              href="https://maps.google.com/?q=м.+Дніпро,+вул.+В.+Вернадського,+2/4,+каб.+423"
+              >м. Дніпро, вул. В. Вернадського, 2/4, каб.№423</a
+            >
+            <a href="tel:+3807560560">тел. 756-05-60</a>
+          </div>
+        </div>
+      </footer>
     </main>
     <script src="./accordion.js"></script>
+    <script src="./submit.js"></script>
   </body>
 </html>
